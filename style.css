@@ -1,0 +1,646 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.firstandsecondnav {
+    display: flex;
+    align-items: center;
+    /* gap: 39%; */
+    padding: 40px;
+    justify-content: space-between;
+}
+
+.navlink {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+/* .navbar{
+    background-color: red;
+} */
+
+.imagesandFAS {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.firstandsecondnav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.logoandNav1{
+    display: flex;
+    gap: 30px;
+}
+
+.navbtn1 button {
+    height: 34px;
+    width: 85px;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+.navbtn2 button {
+    height: 32px;
+    width: 95px;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+
+.sec1box {
+    height: 110px;
+    width: 100%;
+    background-color: #025B2D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sec1boxbtn button {
+    height: 45px;
+    width: 155px;
+    border-radius: 20px;
+    border: 3px solid white;
+    background-color: #025B2D;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.sec1boxtxt {
+    font-size: 19px;
+    color: white;
+    font-weight: 600;
+}
+
+.sec1boxtxtandbtn {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.sec3boxa {
+    height: 550px;
+    width: 50%;
+    background-image: url("images/hot-coffee-cup-with-spoon-plate.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.sec3boxb {
+    height: 550px;
+    width: 50%;
+    background-color: #5b3b28;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+
+.sec3boxaandb {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.sec3boxatxt {
+    font-size: 120px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.sec3boxacircle {
+    height: 110px;
+    width: 180px;
+    background: #5b3b28;
+    color: white;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    transform: rotate(-15deg);
+    line-height: 1.2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 65%;
+    margin-top: 15%;
+
+}
+
+.sec3boxacircletxt {
+    font-weight: bold;
+    font-size: 20px;
+    transform: rotate(15deg);
+}
+
+.sec3boxatxtb {
+    font-size: 90px;
+    font-weight: bold;
+    color: white;
+    margin-left: 20px;
+    margin-top: 23px;
+
+}
+
+.sec3boxatxtC {
+    font-size: 90px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: right;
+    margin-right: 22px;
+    margin-top: -23px;
+}
+
+.sec3boxbtxt {
+    font-size: 50px;
+    color: wheat;
+    font-weight: 600;
+}
+
+.sec3boxbtxtb {
+    font-size: 30px;
+    color: whitesmoke;
+    margin-top: 30px
+}
+
+.sec3boxbbtn button {
+    height: 35px;
+    width: 140px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    color: black;
+    border: none;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.sec4boxaandb {
+    height: 550px;
+    width: 100%;
+    background-color: #025B2D;
+    margin-top: 40px;
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sec4boxa {
+    height: 510px;
+    width: 50%;
+    background-image: url("images/unnamed.jpg");
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.495);
+    background-position: center;
+    background-size: cover;
+    padding-top: 25%;
+}
+
+.sec4boxb {
+    height: 510px;
+    width: 50%;
+    background-color: #025B2D;
+    padding-top: 15px;
+}
+
+.sec4boxbtxt {
+    font-size: 50px;
+    color: white;
+    font-weight: 600;
+}
+
+.sec4boxbtxtb {
+    font-size: 28px;
+    color: whitesmoke;
+    margin-top: 20px;
+}
+
+.sec4boxbbtn button {
+    height: 35px;
+    width: 115px;
+    background-color: white;
+    color: #025B2D;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.sec4boxbbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.sec4boxatxt {
+    font-family: 'Lander', 'Didot', 'Georgia', serif;
+    font-size: 50px;
+    color: #FFFFFF;
+
+}
+
+.sec4boxatxtb {
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Georgia', serif;
+    letter-spacing: 0.15em;
+    color: #FFFFFF;
+
+}
+
+.sec5aandb {
+    display: flex;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.sec5boxa {
+    height: 350px;
+    width: 50%;
+    background-color: #653818;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec5boxb {
+    height: 350px;
+    width: 50%;
+    background-image: url("images/Starbucks-Fall25-Artist-Collab.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.sec5boxatxt {
+    font-family: 'Helvetica Neue', 'Arial', sans-serif;
+    font-size: 24px;
+    color: white;
+    font-weight: 600;
+}
+
+.sec5boxatxtb {
+    font-family: 'Helvetica Neue', 'Arial', sans-serif;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.sec5boxabtn button {
+    height: 35px;
+    width: 115px;
+    background-color: #653818;
+    color: white;
+    border-radius: 20px;
+    border: 1px solid white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.sec5boxabtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.sec6boxaandb {
+    display: flex;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.sec6boxa {
+    height: 350px;
+    width: 50%;
+    background-image: url("images/p284-1.webp");
+    background-position: center;
+    background-size: cover;
+}
+
+.sec6boxb {
+    height: 350px;
+    width: 50%;
+    background-color: #C2C7A8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec6boxbtxt {
+    text-align: center;
+    color: #2D433A;
+    font-family: 'Helvetica Neue', 'Arial', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.sec6boxbtxtb {
+    text-align: center;
+    color: #2D433A;
+    font-family: 'Helvetica Neue', 'Arial', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.sec6boxbbtn button {
+    height: 35px;
+    width: 115px;
+    background-color: #C2C7A8;
+    color: black;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.sec6boxbbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.sec7txt1 {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.sec7txt2 {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.sec7txt3 {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.sec7hr hr {
+    height: 2px;
+    background-color: rgba(128, 128, 128, 0.098);
+    width: 100%;
+    margin-top: 40px;
+    box-shadow: 0px 0px 3px rgba(128, 128, 128, 0.363);
+}
+
+.footer1 {
+    font-size: 20px;
+}
+
+.footer1 a {
+    text-decoration: none;
+    color: #6B6B6B;
+    font-size: 18px;
+}
+
+.footer2 {
+    font-size: 20px;
+}
+
+.footer2 a {
+    text-decoration: none;
+    color: #6B6B6B;
+    font-size: 18px;
+}
+
+.footer3 {
+    font-size: 20px;
+}
+
+.footer3 a {
+    text-decoration: none;
+    color: #6B6B6B;
+    font-size: 18px;
+}
+
+.footer4 {
+    font-size: 20px;
+}
+
+.footer4 a {
+    text-decoration: none;
+    color: #6B6B6B;
+    font-size: 18px;
+}
+
+.footer5 {
+    font-size: 20px;
+}
+
+.footer5 a {
+    text-decoration: none;
+    color: #6B6B6B;
+    font-size: 18px;
+}
+
+.Allfootertxt {
+    display: flex;
+    gap: 50px;
+    margin: 40px;
+    flex-wrap: wrap;
+}
+
+.Allfootertxt a:hover {
+    color: black;
+}
+
+.footerhr hr {
+    height: 2px;
+    background-color: rgba(128, 128, 128, 0.098);
+    width: 94%;
+    margin-top: 40px;
+    box-shadow: 0px 0px 3px rgba(128, 128, 128, 0.363);
+    margin-left: 40px;
+}
+
+.ALLicons {
+    display: flex;
+    gap: 15px;
+    margin: 40px;
+}
+
+.footer6 a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.footer6 a:hover {
+    text-decoration: underline;
+}
+
+.footer6 {
+    margin-left: 40px;
+}
+
+.harmbugger {
+    display: none
+}
+
+.sec3boxbtxt2 {
+    display: none;
+}
+.logo{
+    display: flex;
+}
+.sec3boxbtxt2{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:900px) {
+    .navlink a{
+        display: none;
+    }
+
+    .navbar {
+        height: 90px;
+        display: flex;
+    }
+
+    .navbtn1 {
+        display: none;
+    }
+
+    .navbtn2 {
+        display: none;
+    }
+
+    .firstandsecondnav {
+        display: flex;
+        justify-content: space-between;
+       gap: 100px;
+    }
+
+    .harmbugger {
+        font-size: 25px;
+        display: flex;
+    }
+
+    /* .navlink a {
+        display: none;
+    } */
+
+    .imagesandFAS {
+        display: none;
+    }
+
+    .sec3boxatxt {
+        font-size: 70px;
+        font-weight: bold;
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+
+    .sec3boxatxtb {
+        font-size: 50px;
+        
+    }
+
+    .sec3boxatxtC {
+        font-size: 50px;
+        padding-top: 10px;
+    }
+
+    .sec3boxa {
+        height: auto;
+        width: 100%;
+
+    }
+
+    .sec3boxb {
+        /* height: auto; */
+        width: 100%;
+    }
+
+    .sec3boxacircle {
+        margin-left: 50%;
+    }
+
+    .sec3boxbtxt {
+        font-size: 35px;
+    }
+
+    /* .sec3boxbtxt2{
+            display: flex;
+        } */
+         
+    .sec3boxbtxtb {
+        text-align: center;
+        font-size: 25px;
+    }
+    .sec3boxbtxt2{
+        display: flex;
+    }
+
+    .sec4boxa {
+        display: none;
+    }
+
+    .sec4boxb {
+        display: none;
+    }
+
+    .sec4boxaandb {
+        display: none;
+    }
+
+    .sec5boxa {
+        width: 100%;
+    }
+
+    .sec5boxb {
+        width: 100%;
+    }
+
+    .sec6boxa {
+        width: 100%;
+
+    }
+
+    .sec6boxb {
+        width: 100%;
+    }
+
+    .footerhr hr {
+        width: 82%;
+    }
+}

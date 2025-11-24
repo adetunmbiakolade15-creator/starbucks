@@ -1,0 +1,318 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logoandfirstbar{
+    display: flex;
+    gap: 50px;
+}
+
+.firstandsecondnav {
+    display: flex;
+    align-items: center;
+    gap: 38%;
+    padding: 40px;
+}
+
+.navlink {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.imagesandFAS {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.firstandsecondnav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.navbtn1 button {
+    height: 34px;
+    width: 85px;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+.navbtn2 button {
+    height: 32px;
+    width: 95px;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+.harmbugger{
+    display: none;
+}
+.menunavbar{
+    height: 50px;
+    width: 100%;
+    border: 1px solid gray;
+    border-left: none;
+    border-right: none;
+    box-shadow:  1px 0px 3px gray;
+    /* position: fixed; */
+}
+.menunavlink{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 12px;
+    margin-left: 9.5%;
+}
+.menunavlink a{
+    text-decoration: none;
+    color: black;
+}
+.sec2{
+    margin-top: 70px;
+}
+.MENUhr hr{
+    height: 1px;
+    width: 130%;
+    color: gray;
+    margin-top: 20px;
+}
+.previoustxt{
+    font-size: 25px;
+    color: black;
+    font-weight: 900;
+    margin-left: 20%;
+    margin-top: 50px;
+}
+.previousimg{
+    margin-left: 20%;
+}
+.previoustxt2{
+    font-size: 30px;
+    color: black;
+    font-weight: 600;
+    margin-left: 20%;
+    margin-top: 20px;
+}
+.previoustxt3{
+    font-size: 23px;
+    color: gray;
+    margin-left: 20%;
+    margin-top: 30px;
+}
+.previous2btn{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 20%;
+    margin-top: 30px;
+}
+.previousbtn1 button{
+    height: 38px;
+    width: 100px;
+    border: 1px solid black;
+    color: black;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 15px;
+}
+.previousbtn2 button{
+    height: 35px;
+    width: 110px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.sec7hr hr {
+    height: 2px;
+    background-color: rgba(128, 128, 128, 0.098);
+    width: 100%;
+    box-shadow: 0px 0px 3px rgba(128, 128, 128, 0.363);
+}
+
+.footer1 {
+    font-size: 20px;
+}
+
+.footer1 a {
+    text-decoration: none;
+    color: #6B6B6B;
+    font-size: 18px;
+}
+
+.footer2 {
+    font-size: 20px;
+}
+
+.footer2 a {
+    text-decoration: none;
+    color: #6B6B6B;
+    font-size: 18px;
+}
+
+.footer3 {
+    font-size: 20px;
+}
+
+.footer3 a {
+    text-decoration: none;
+    color: #6B6B6B;
+    font-size: 18px;
+}
+
+.footer4 {
+    font-size: 20px;
+}
+
+.footer4 a {
+    text-decoration: none;
+    color: #6B6B6B;
+    font-size: 18px;
+}
+
+.footer5 {
+    font-size: 20px;
+}
+
+.footer5 a {
+    text-decoration: none;
+    color: #6B6B6B;
+    font-size: 18px;
+}
+
+.Allfootertxt {
+    display: flex;
+    gap: 50px;
+    margin: 40px;
+    flex-wrap: wrap;
+}
+
+.Allfootertxt a:hover {
+    color: black;
+}
+
+.footerhr hr {
+    height: 2px;
+    background-color: rgba(128, 128, 128, 0.098);
+    width: 94%;
+    margin-top: 40px;
+    box-shadow: 0px 0px 3px rgba(128, 128, 128, 0.363);
+    margin-left: 40px;
+}
+
+.ALLicons {
+    display: flex;
+    gap: 15px;
+    margin: 40px;
+}
+
+.footer6 a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.footer6 a:hover {
+    text-decoration: underline;
+}
+
+.footer6 {
+    margin-left: 40px;
+}
+
+
+
+
+.MenuLnav{
+    height:100px;
+    width: 100%;
+    background-color: #224840;
+    /* position: fixed; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.MLNBhr hr{
+    height: 1;
+    width: 220px;
+    background-color: gray;
+    margin-top: 5px;
+
+}
+.menusmallhr hr{
+    height: 1px;
+    width: auto;
+    background-color: black;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+@media(max-width:900px){
+    .navlink a{
+        display: none;
+    }
+
+    .navbar {
+        height: 90px;
+        display: flex;
+    }
+
+    .navbtn1 {
+        display: none;
+    }
+
+    .navbtn2 {
+        display: none;
+    }
+
+    .firstandsecondnav {
+        display: flex;
+        justify-content: space-between;
+       gap:230px;
+       margin-top: 20px;
+    }
+
+    .harmbugger {
+        font-size: 25px;
+        display: flex;
+    }
+
+    /* .navlink a {
+        display: none;
+    } */
+
+    .imagesandFAS {
+        display: none;
+    }
+    .menunavbar{
+        margin-top: 10px;
+    }
+    .footerhr{
+        width: 90%;
+    }
+    .sec7hr{
+        margin-top: 90%;
+    }
+}

@@ -1,0 +1,339 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logohr hr {
+    height: 1px;
+    width: 100%;
+    color: rgba(128, 128, 128, 0);
+    box-shadow: 1px 0px 2px gray;
+}
+
+.logo {
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+
+.fillbox input {
+    height: 45px;
+    width: 380px;
+    border-radius: 10px;
+    border: 1.5px solid rgba(0, 0, 0, 0.534);
+    padding-left: 10px;
+}
+
+.fillbox {
+    margin-top: 30px;
+}
+
+.fillbox input:focus {
+    outline: none;
+}
+
+.fillbox input::placeholder {
+    color: black;
+    font-size: 16px;
+}
+
+.formbox {
+    height: 480px;
+    max-width: 450px;
+    width: 100%;
+    min-width: 300px;
+    /* background-color: red; */
+    /* margin-left: 40px; */
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    margin-top: 50px;
+    padding-top: 40px;
+}
+
+.txt1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+
+.keepmeSGNINtxt {
+    font-size: 18px;
+}
+
+.keepmeSGNINtxt a {
+    font-size: 18px;
+    text-decoration: underline;
+    color: darkgreen;
+    font-weight: bold;
+}
+
+.keepmeSGNINtxt a:hover {
+    text-decoration: none;
+}
+
+.forgetUN a {
+    font-size: 18px;
+    text-decoration: underline;
+    color: darkgreen;
+    font-weight: bold;
+}
+
+.forgetUN a:hover {
+    text-decoration: none;
+}
+
+.forgetPWD a {
+    font-size: 18px;
+    text-decoration: underline;
+    color: darkgreen;
+    font-weight: bold;
+}
+
+.forgetPWD a:hover {
+    text-decoration: none;
+}
+
+.Formbtnindexsgnin button {
+    height: 55px;
+    width: 130px;
+    border-radius: 30px;
+    background-color: green;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.Formbtnindexsgnin {
+    display: flex;
+    justify-content: right;
+    margin-top: 50px;
+}
+
+.sec2TXT1 {
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: darkgreen;
+}
+
+.sec2TXT2 {
+    align-items: center;
+    font-size: 18px;
+
+}
+
+.sec2 {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.sec2btn button {
+    height: 32px;
+    width: 110px;
+    border: 1px solid darkgreen;
+    color: darkgreen;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+.sec2btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+.formboxhr hr {
+    height: 1px;
+    width: 100%;
+    margin-top: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer1 {
+    font-size: 20px;
+}
+
+.footer1 a {
+    text-decoration: none;
+    color: #6B6B6B;
+    font-size: 18px;
+}
+
+.footer2 {
+    font-size: 20px;
+}
+
+.footer2 a {
+    text-decoration: none;
+    color: #6B6B6B;
+    font-size: 18px;
+}
+
+.footer3 {
+    font-size: 20px;
+}
+
+.footer3 a {
+    text-decoration: none;
+    color: #6B6B6B;
+    font-size: 18px;
+}
+
+.footer4 {
+    font-size: 20px;
+}
+
+.footer4 a {
+    text-decoration: none;
+    color: #6B6B6B;
+    font-size: 18px;
+}
+
+.footer5 {
+    font-size: 20px;
+}
+
+.footer5 a {
+    text-decoration: none;
+    color: #6B6B6B;
+    font-size: 18px;
+}
+
+.Allfootertxt {
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.Allfootertxt a:hover {
+    color: black;
+}
+
+.footerhr hr {
+    height: 2px;
+    background-color: rgba(128, 128, 128, 0.098);
+    width: 94%;
+    margin-top: 40px;
+    box-shadow: 0px 0px 3px rgba(128, 128, 128, 0.363);
+    /* margin-left: 40px; */
+}
+
+.ALLicons {
+    display: flex;
+    gap: 15px;
+    margin: 40px;
+}
+
+.footer6 a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.footer6 a:hover {
+    text-decoration: underline;
+}
+
+
+.footer {
+    padding-left: 10%;
+}
+
+
+/* .rxrx{
+    background-color: blue;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:900px) {
+    .logohr {
+        width: 100%;
+        /* margin-left: 20px; */
+    }
+
+    .formbox {
+        box-shadow: none;
+        display: flex;
+        padding: 20px 10px;
+      
+    }
+
+    .formboxhr {
+        width: 100%;
+    }
+
+    .Formbtnindexsgnin{
+        display: flex;
+        justify-content: right;
+        margin-right: 30px;
+    }
+
+    .fillbox input {
+        max-width: 100%;
+    }
+
+    .txt1 {
+        font-size:28px ;
+        /* background-color: red; */
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .footer {
+        margin-top: 50px;
+    }
+    .sec2{
+        margin-top: -60px;
+    }
+    .sec2btn{
+        margin-top: 30px;
+    }
+
+   .FBtxt1{
+    margin-top: -50px;
+   }
+    .logo{
+        margin-left: 20px;
+    }
+    
+}
