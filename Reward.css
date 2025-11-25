@@ -289,6 +289,7 @@ body {
     gap: 120px;
     margin-left: 40px;
     margin-top: 90px;
+    flex-wrap: wrap;
 }
 .scanandpay{
     display: flex;
@@ -352,6 +353,7 @@ font-weight: 600;
 }
 .ALLSEC7B{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin-top: 50px;
     gap: 5%;
@@ -718,5 +720,66 @@ font-weight: 600;
     }
     .istcardtxt2{
         font-size: 19px;
+    }
+    .sec4a{
+        margin-top: 20px;
+    }
+    .sec5B{
+        margin-top: 30px;
+    }
+    .section6box{
+        height: 1800px;
+    }
+    .section6hr{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .scanandpay{
+        margin-top: -20px;
+    }
+    .sec7box{
+        width: 100%;
+        height: 1080px;
+        margin-bottom: 90px;
+    }
+    .sec8txt1{
+        /* margin-top: 90px; */
+    }
+    .sec6txt1 p{
+        font-size: 25px;
+    }
+    .scanandpayimg img{
+        width: 150px;
+    }
+    .sec7B{
+        margin-top: 30px;
+    }
+    .section8 p{
+        padding-left: 40px;
+        font-size: 25px;
+    }
+    
+    .section8{
+        padding-top: 150px;
+        width: 90%;
+    }
+    .sec7bigbgbox{
+        background-image: none;
+    }
+    .section8B{
+        width: 90%;
+    }
+    .section8B p{
+        font-size: 25px;
+    }
+    .sec8Ctxt1{
+        font-size: 25px;
+        width: 90%;
+    }
+    .sec8CtxtH{
+        font-size: 25px;
+    }
+    .sec8Ctxt2 p{
+        font-size: 25px;
     }
 }

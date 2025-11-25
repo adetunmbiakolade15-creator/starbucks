@@ -66,8 +66,13 @@ body {
     border-left: none;
     border-right: none;
     box-shadow:  1px 0px 3px gray;
-    /* position: fixed; */
     margin-top: -30px;
+}
+.zxz{
+    position: sticky;
+    top: 0.1px;
+    background-color: whitesmoke;
+    width: 100%;
 }
 .menunavlink{
     display: flex;
@@ -264,6 +269,14 @@ body {
     align-items: center;
     justify-content: space-around;
     margin-top: 50px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+}
+.menunavbar{
+    position: static;
+        /* bottom: 0; */
+        width: 100%;
 }
 .MLNBhr hr{
     height: 1;

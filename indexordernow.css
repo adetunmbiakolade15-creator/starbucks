@@ -1,0 +1,510 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logoandfirstbar{
+    display: flex;
+    gap: 50px;
+}
+
+.firstandsecondnav {
+    display: flex;
+    align-items: center;
+    gap: 37%;
+    padding: 40px;
+}
+
+.navlink {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.imagesandFAS {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.firstandsecondnav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.navbtn1 button {
+    height: 34px;
+    width: 85px;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+.navbtn2 button {
+    height: 32px;
+    width: 95px;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+.harmbugger{
+    display: none;
+}
+
+.feahr hr {
+    height: 1px;
+    width: 100%;
+    box-shadow: 1px 0px 2px gray;
+    margin-top: -30px;
+}
+.bigunderline {
+    position: relative;
+
+}
+
+.bigunderline::before {
+    content: "";
+    width: 100%;
+    height: 5px;
+    position: absolute;
+    background-color: #025B2D;
+    bottom: -28px;
+    left: 0px;
+}
+.secTWO2menu{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left: 11%;
+    margin-top: 20px;
+    flex-wrap: wrap;
+
+}
+.secTWO2menu a{
+    text-decoration: none;
+    color: #025B2D;
+    font-size: 16px;
+}
+.STGBTXT{
+    font-weight: bold;
+    font-size: 16px;
+}
+.secTHREE3{
+    height: 200px;
+    width: 100%;
+    background-color: #1C3B32;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.secTHREE3TXT{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+.SEC5A{
+    height: 400px;
+    width: 50%;
+    /* background-color: rgb(156, 129, 129); */
+}
+.SEC5B{
+    height: 400px;
+    width: 50%;
+    /* background-color: rgb(134, 134, 178); */
+}
+.sec5AandB{
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); */
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.SEC5ATXT1{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 20%;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+.SEC5Aline{
+        height: 4px;
+        width: 100%;
+        max-width: 400px;
+        background-color: rgba(0, 128, 0, 0.285);
+        border-radius: 20px;
+        margin-left: 20%;
+        margin-top: 20px;
+}
+.SEC5Acircle{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: rgba(0, 128, 0, 0.285);
+    border: 2px solid green;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.SEC5Aa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SEC5Acircletxt1{
+    text-align: center;
+    font-size: 18px;
+
+}
+.SEC5Ab{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-left: 20%;
+    margin-top: 50px;
+}
+.SEC5Abtxt{
+    font-size: 18px;
+    color: darkgrey;
+}
+
+.sec5fiveB button{
+    height: 60px;
+    width: 180px;
+    border: none;
+    border-radius: 30px;
+    background-color: #1C3B32;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+.sec5fiveB{
+    margin: 70px;
+}
+.SEC5B{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.secsix6container{
+    height: 270px;
+    width: 100%;
+    background-color: #1C3B32;
+}
+.secsix6container{
+    padding-left: 11%;
+    padding-top: 30px;
+}
+.secsix6containerSmallbox{
+    height: 25px;
+    width: 100px;
+    border: 1px solid darkgoldenrod;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: darkgoldenrod;
+}
+.secsix6containerTXT{
+    margin-top: 20px;
+    color: whitesmoke;
+    color: darkgray;
+    font-size: 14px;
+}
+.secsix6containerbtn{
+    margin-top: 20px;
+}
+.secsix6containerbtn button{
+    height: 36px;
+    width: 250px;
+    border-radius: 20px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+
+.footer{
+    margin-bottom: 190px;
+}
+
+.footer1 {
+    font-size: 20px;
+}
+
+.footer1 a {
+    text-decoration: none;
+    color: #6B6B6B;
+    font-size: 18px;
+}
+
+.footer2 {
+    font-size: 20px;
+}
+
+.footer2 a {
+    text-decoration: none;
+    color: #6B6B6B;
+    font-size: 18px;
+}
+
+.footer3 {
+    font-size: 20px;
+}
+
+.footer3 a {
+    text-decoration: none;
+    color: #6B6B6B;
+    font-size: 18px;
+}
+
+.footer4 {
+    font-size: 20px;
+}
+
+.footer4 a {
+    text-decoration: none;
+    color: #6B6B6B;
+    font-size: 18px;
+}
+
+.footer5 {
+    font-size: 20px;
+}
+
+.footer5 a {
+    text-decoration: none;
+    color: #6B6B6B;
+    font-size: 18px;
+}
+
+.Allfootertxt {
+    display: flex;
+    gap: 50px;
+    margin: 40px;
+    flex-wrap: wrap;
+}
+
+.Allfootertxt a:hover {
+    color: black;
+}
+
+.footerhr hr {
+    height: 2px;
+    background-color: rgba(128, 128, 128, 0.098);
+    width: 94%;
+    margin-top: 40px;
+    box-shadow: 0px 0px 3px rgba(128, 128, 128, 0.363);
+    margin-left: 40px;
+}
+
+.ALLicons {
+    display: flex;
+    gap: 15px;
+    margin: 40px;
+}
+
+.footer6 a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.footer6 a:hover {
+    text-decoration: underline;
+}
+
+.footer6 {
+    margin-left: 40px;
+}
+
+.menulastnavbarLEFTbox{
+    display: flex;
+    justify-content:right;
+   margin-right: 40px;
+   /* position: relative; */
+}
+
+.menulastnavbarLEFTbox button{
+    height: 60px;
+    width: 170px;
+    border-radius: 30px;
+    background-color: #224840;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.menulastnavbarandLEFT{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.MenuLnav{
+    height:100px;
+    width: 100%;
+    background-color: #224840;
+    /* position: fixed; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.MLNBhr hr{
+    height: 1;
+    width: 220px;
+    background-color: gray;
+    margin-top: 5px;
+
+}
+.menusmallhr hr{
+    height: 1px;
+    width: auto;
+    background-color: black;
+    margin-top: 5px;
+}
+.sec5{
+    margin-top: -90px;
+}
+
+
+
+@media(max-width:900px) {
+    .sec5fiveBcircle{
+        position: absolute;
+        left: 42%;
+
+    }
+    .sec5fiveAA{
+        width: 400px;
+        height: 300px;
+        /* background-color: red; */
+        position: relative;
+    }
+
+
+
+
+    .navlink a{
+        display: none;
+    }
+    .harmbugger {
+        font-size: 25px;
+        display: flex;
+    }
+    .firstandsecondnav {
+        display: flex;
+        justify-content: space-between;
+       gap:200px;
+       margin-bottom: -35px;
+    }
+   
+    
+    .navbtn1{
+        display: none;
+    }
+    .navbtn2{
+        display: none;
+    }
+    .imagesandFAS {
+        display: none;
+    }
+
+
+    .secTWO2menu a{
+        font-size: 13px;
+    }
+    .STGBTXT{
+        font-size: 13px;
+        margin: 0;
+        padding: 0px;
+    }
+    .secTWO2menu{
+        margin-left: 2%;
+    }
+    .secTHREE3{
+        height: 270px;
+
+    }
+    .secTHREE3TXT{
+        text-align: center;
+    }
+    .secsix6container{
+        height: 390px;
+
+    }
+    .footerhr{
+        width: 90%;
+        
+    }
+    .menulastnavbarLEFTbox{
+        margin-top: 15px;
+    }
+
+
+
+    .SEC5A{
+        width: 100%;
+    }
+    .SEC5B{
+        width: 100%;
+    }
+    .SEC5Aline{
+        margin-left: 0px;
+        width: 90%;
+        margin: 5%;
+    }
+    .SEC5ATXT1{
+        margin: 5px;
+    }
+    .SEC5Ab{
+        margin-left: 0px;
+        width: 90%;
+        margin: 5%;
+        margin-top: 60px;
+    }
+    .sec5fiveB{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       margin-top: -10px;
+    }
+    .sec5fiveB button{
+        border: 2px solid darkgreen;
+    }
+    .SEC5B{
+        height: 150px;
+    }
+}

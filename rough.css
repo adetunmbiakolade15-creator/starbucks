@@ -10,7 +10,7 @@ body {
     box-sizing: border-box;
 }
 
-.sec5btn {
+/* .sec5btn {
     display: flex;
     height: 35px;
     width: 130px;
@@ -221,5 +221,143 @@ body {
     
 }
 .footer{
-    padding-left: 10%;
+    padding-left: 10%; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.SEC5A{
+    height: 400px;
+    width: 50%;
+    /* background-color: rgb(156, 129, 129); */
+}
+.SEC5B{
+    height: 400px;
+    width: 50%;
+    /* background-color: rgb(134, 134, 178); */
+}
+.sec5AandB{
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); */
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.SEC5ATXT1{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 20%;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+.SEC5Aline{
+        height: 4px;
+        width: 100%;
+        max-width: 400px;
+        background-color: rgba(0, 128, 0, 0.285);
+        border-radius: 20px;
+        margin-left: 20%;
+        margin-top: 20px;
+}
+.SEC5Acircle{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: rgba(0, 128, 0, 0.285);
+    border: 2px solid green;
+    margin-top: 40px;
+    
+}
+
+.SEC5Aa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SEC5Acircletxt1{
+    text-align: center;
+    font-size: 18px;
+
+}
+.SEC5Ab{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-left: 20%;
+    margin-top: 50px;
+}
+.SEC5Abtxt{
+    font-size: 18px;
+    color: darkgrey;
+}
+
+.sec5fiveB button{
+    height: 60px;
+    width: 180px;
+    border: none;
+    border-radius: 30px;
+    background-color: #1C3B32;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+.sec5fiveB{
+    margin: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:900px) {
+    .SEC5A{
+        width: 100%;
+    }
+    .SEC5B{
+        width: 100%;
+    }
+    .SEC5Aline{
+        margin-left: 0px;
+        width: 90%;
+        margin: 5%;
+    }
+    .SEC5ATXT1{
+        margin: 5px;
+    }
+    .SEC5Ab{
+        margin-left: 0px;
+        width: 90%;
+        margin: 5%;
+        margin-top: 60px;
+    }
+    .sec5fiveB{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       margin-top: -10px;
+    }
+    .sec5fiveB button{
+        border: 2px solid darkgreen;
+    }
+    .SEC5B{
+        height: 150px;
+    }
 }
