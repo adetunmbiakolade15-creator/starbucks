@@ -546,7 +546,7 @@ body {
     .firstandsecondnav {
         display: flex;
         justify-content: space-between;
-       gap: 100%;
+       /* gap: 100%; */
     }
 
     .harmbugger {
