@@ -545,8 +545,8 @@ body {
 
     .firstandsecondnav {
         display: flex;
-        justify-content: space-between;
-       gap: 200px;
+        /* justify-content: center; */
+        gap: 100%;
     }
 
     .harmbugger {
@@ -599,9 +599,12 @@ body {
         font-size: 35px;
     }
 
-    /* .sec3boxbtxt2{
-            display: flex;
-        } */
+    .sec4boxbtxt{
+        display: none;
+}
+.sec4boxbtxtb{
+    display: none;
+}
          
     .sec3boxbtxtb {
         text-align: center;
@@ -616,11 +619,21 @@ body {
     }
 
     .sec4boxb {
-        display: none;
+        display: flex;
+        width: 100%;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/unnamed.jpg");
+    
     }
 
     .sec4boxaandb {
-        display: none;
+        display: flex;
+        /* height: auto; */
+        z-index: 1;
+        
+    
     }
 
     .sec5boxa {
