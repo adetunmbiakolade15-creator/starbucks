@@ -112,7 +112,9 @@ body {
     overflow-x: scroll;
     height: 230px;
     padding-left: 9.5%;
-
+}
+.allcards::-webkit-scrollbar{
+display: none;
 }
 
 .giftcards {
