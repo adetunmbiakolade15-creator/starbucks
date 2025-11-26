@@ -232,4 +232,70 @@ padding: 5px;
     height: 100%;
     background-color: blue;
 }
+@media(max-width:900px){
+    .FASbothdiv{
+     padding: 10px;
+       
+    }
+    .FASdiv1{
+        width: 100%;
+        order: 2;
 
+    }
+    .FASdiv2{
+        width: 100%;
+    }
+    .bothbtncontainer{
+        margin-left: 0;
+    }
+    .TESTING{
+        display: flex;
+        justify-content: center;
+    }
+    .scroll{
+        padding: 30px 10px;
+    }
+    .FASFASdiv1b input{
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .navlink {
+        display: none;
+    }
+
+    .navbar {
+        height: 90px;
+        display: flex;
+    }
+
+    .navbtn1 {
+        display: none;
+    }
+
+    .navbtn2 {
+        display: none;
+    }
+
+    .firstandsecondnav {
+        display: flex;
+        justify-content: space-between;
+       margin-top: 20px;
+       width: 100%;
+    }
+
+    .harmbugger {
+        font-size: 25px;
+        display: flex;
+    }
+
+    /* .navlink a {
+        display: none;
+    } */
+
+    .imagesandFAS {
+        display: none;
+    }
+    
+}
