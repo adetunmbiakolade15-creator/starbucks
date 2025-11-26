@@ -533,6 +533,8 @@ body {
     .navbar {
         height: 90px;
         display: flex;
+        padding: 0px;
+        
     }
 
     .navbtn1 {
@@ -546,12 +548,21 @@ body {
     .firstandsecondnav {
         display: flex;
         /* justify-content: center; */
-        gap: 100%;
+       
+        width: 100%;
+        background-color: red;
     }
 
     .harmbugger {
         font-size: 25px;
         display: flex;
+        background: blue;
+    
+
+    }
+
+    .navlink{
+        display: none;
     }
 
     /* .navlink a {
