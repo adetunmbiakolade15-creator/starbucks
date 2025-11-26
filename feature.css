@@ -17,7 +17,7 @@ body {
 .firstandsecondnav {
     display: flex;
     align-items: center;
-    gap: 38%;
+    justify-content: space-between;
     padding: 40px;
 }
 
@@ -390,7 +390,7 @@ body {
         height: auto;
         padding: 20px;
     }
-    .navlink a{
+    .navlink {
         display: none;
     }
 
@@ -410,8 +410,8 @@ body {
     .firstandsecondnav {
         display: flex;
         justify-content: space-between;
-       gap:230px;
        margin-top: 20px;
+       width: 100%;
     }
 
     .harmbugger {

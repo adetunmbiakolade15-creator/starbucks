@@ -16,8 +16,8 @@ body {
 
 .firstandsecondnav {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    gap: 38%;
     padding: 40px;
 }
 
